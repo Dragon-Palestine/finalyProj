@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="master.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <div class="overlay hidden"></div>
+      <aside class="hidden">
+        <div class="colors">
+          <h3>Colors</h3>
+          <ul class="colors-list">
+            <li class="active-colors" data-color="#FF9800"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#009688" class="active"></li>
+            <li data-color="#03A9F4"></li>
+            <li data-color="#4CAF50"></li>
+          </ul>
+        </div>
+        <div class="random-bacground">
+          <h3>Random Backgrounds</h3>
+          <ul>
+            <li><button class="active-option">Yes</button></li>
+            <li><button>No</button></li>
+          </ul>
+        </div>
+        <div class="show-bullets">
+          <h3>Show Bullets</h3>
+          <ul>
+            <li><button class="active-option">Yes</button></li>
+            <li><button>No</button></li>
+          </ul>
+        </div>
+        <button>Rest Options</button>
+        <div></div>
+        <div></div>
+        <div></div>
+        <span class="setting"><i class="fa fa-gear fa-spin"></i></span>
+      </aside>
+      <main>
+        <div class="bullets">
+          <ul>
+            <li><a href="#About"></a></li>
+            <li><a href="#Skills"></a></li>
+            <li><a href="#Gallery"></a></li>
+            <li><a href="#Timeline"></a></li>
+            <li><a href="#Features"></a></li>
+            <li><a href="#Testimonials"></a></li>
+          </ul>
+        </div>
+        <header>
+          <nav>
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="logo">
+              <p>L<span>oai</span></p>
+            </div>
+            <ul>
+              <div class="bol-nav"></div>
+              <li class="active-nav">
+                <a href="#Home"
+                  ><i class="fa-solid fa-house fa-fw"></i><span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href="#About"
+                  ><i class="fa-regular fa-address-card fa-fw"></i
+                  ><span>About</span></a
+                >
+              </li>
+              <li>
+                <a href="#Skills"
+                  ><i class="fa-solid fa-star fa-fw"></i><span>Skills</span></a
+                >
+              </li>
+              <li>
+                <a href="#Gallery"
+                  ><i class="fa-solid fa-image"></i><span>Gallery</span></a
+                >
+              </li>
+              <li>
+                <a href="#Timeline"
+                  ><i class="fa-solid fa-timeline fa-fw"></i
+                  ><span>Timeline</span></a
+                >
+              </li>
+              <li>
+                <a href="#Features"
+                  ><i class="fa-solid fa-feather-pointed fa-fw"></i
+                  ><span>Features</span></a
+                >
+              </li>
+              <li>
+                <a href="#Testimonials"
+                  ><i class="fa-solid fa-comments fa-fw"></i
+                  ><span>Testimonials</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="home">
+            <h1>We Are <span>Creative </span> Agency</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus odit nihil ullam nesciunt quidem iste
+            </p>
+          </div>
+        </header>
+        <div class="main">
+          <section id="About">
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="container">
+              <div>
+                <h2 class="top">About Us</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis ipsum, tenetur dolores esse magni ratione
+                  distinctio! Quod iusto neque fuga, maxime quos nostrum
+                  quibusdam dicta deserunt blanditiis non voluptate id?
+                </p>
+              </div>
+              <img src="img/about-us.jpg" alt="" />
+            </div>
+          </section>
+          <section id="Skills">
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="container">
+              <h2 class="top">Our Skills</h2>
+              <div class="skill">
+                <p>HTML</p>
+                <span data-line="80"></span>
+              </div>
+              <div class="skill">
+                <p>Css</p>
+                <span data-line="70"></span>
+              </div>
+              <div class="skill">
+                <p>JavaScript</p>
+                <span data-line="95"></span>
+              </div>
+              <div class="skill">
+                <p>Python</p>
+                <span data-line="85"></span>
+              </div>
+              <div class="skill">
+                <p>PHP</p>
+                <span data-line="90"></span>
+              </div>
+              <div class="skill">
+                <p>MySQL</p>
+                <span data-line="55"></span>
+              </div>
+            </div>
+          </section>
+          <section id="Gallery">
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="container">
+              <h2 class="top">Our Gallery</h2>
+              <div class="imgs">
+                <div class="img active-img">
+                  <img src="img/01.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/02.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/03.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/04.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/05.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/06.png" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/07.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/08.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/09.jpg" alt="" />
+                </div>
+                <div class="img">
+                  <img src="img/10.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="Timeline">
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="timeline">
+              <div class="container">
+                <div class="timeline-content">
+                  <div class="year">2018</div>
+                  <div class="left">
+                    <div class="content">
+                      <h3>Testing Heading</h3>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="right">
+                    <div class="content">
+                      <h3>Testing Heading</h3>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="year">2016</div>
+                  <div class="left">
+                    <div class="content">
+                      <h3>Testing Heading</h3>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="left">
+                    <div class="content">
+                      <h3>Testing Heading</h3>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="Features">
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="features">
+              <h2 class="top">Our Features</h2>
+              <div class="container">
+                <div class="feat-box">
+                  <img src="./Special Design_files/programming.svg" alt="">
+                  <h4>Development</h4>
+                  <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                  <img src="./Special Design_files/advertising.svg" alt="">
+                  <h4>Marketing</h4>
+                  <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                  <img src="./Special Design_files/hosting-icon.svg" alt="">
+                  <h4>Hosting</h4>
+                  <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                  <img src="./Special Design_files/mobile-app.svg" alt="">
+                  <h4>Mobile Develope</h4>
+                  <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                  <img src="./Special Design_files/graphic-design.svg" alt="">
+                  <h4>Cloud and Servers</h4>
+                  <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="feat-box">
+                  <img src="./Special Design_files/web-design.svg" alt="">
+                  <h4>Seo</h4>
+                  <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </section>
+          <section id="Testimonials">
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="testimonials">
+              <div class="container">
+                <h2 class="top">Testimonials</h2>
+                <div class="ts-box">
+                  <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                  <div class="person-info">
+                    <img src="./Special Design_files/DDD" alt="">
+                    <h4>Ahmed Mosaad</h4>
+                    <p>CEO At Company</p>
+                  </div>
+                </div>
+                <div class="ts-box">
+                  <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                  <div class="person-info">
+                    <img src="./Special Design_files/EEE" alt="">
+                    <h4>Mohamed Ibrahim</h4>
+                    <p>CEO At Company</p>
+                  </div>
+                </div>
+                <div class="ts-box">
+                  <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                  <div class="person-info">
+                    <img src="./Special Design_files/AAA" alt="">
+                    <h4>Sherief Ashraf</h4>
+                    <p>CEO At Company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </section>
+          <section>
+            <!-- width 90% ,boles ...> 10% -->
+            <div class="container">
+              <h2 class="top">Contact Us</h2>
+              <form action="https://elzerowebschool.github.io/SpecialDesign/?username=&amp;phone=&amp;email=&amp;subject=&amp;message=">
+                <div class="left">
+                  <input type="text" placeholder="Your Name" name="username">
+                  <input type="text" placeholder="Your Phone" name="phone">
+                  <input type="email" placeholder="Your Email" name="email">
+                  <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                  <textarea name="message" placeholder="Your Message"></textarea>
+                  <input type="submit" value="Send">
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+        <footer>
+          <!-- width 90% ,boles ...> 10% -->
+          <div class="container"></div>
+        </footer>
+      </main>
+    </div>
+    <script src="master.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--body-color);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --body-color: rgb(12, 12, 12);
+    --main-color: rgb(57, 52, 52);
+    --sec-color: #ccc;
+    --sec-light-color: #cccccc75;
+    --color-option: #ff9800;
+    /* --dark-red:#E91E63;
+      --dark-drunken:#009688;
+      --dark-blue:#03A9F4;
+      --dark-green:#4CAF50; */
+  
+    /* --light-option: #ff990085; */
+    /* --light-red:#e91e6279;
+      --light-drunken:#0096877e;
+      --light-blue:#03a8f47a;
+      --light-green:#4caf4f78; */
+    --animation-top: trans-top 0.3s linear both;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+  }
+  section,
+  header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .container {
+    /* max-width: 85%; */
+    height: 75%;
+    padding: 20px 70px;
+    margin: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
+  section::after,
+  header::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    width: 110%;
+    height: 35%;
+    left: -5%;
+    opacity: 0.5;
+    transform: rotate(-10deg);
+  }
+  /*-------------------------------*/
+  .hidden {
+    display: none;
+    transition: 0.3s;
+  }
+  .op-0 {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .op-1 {
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .top {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  /*-------------------------------*/
+  
+  /*---------------------------------------------------*/
+  
+  .page {
+    width: 100vw;
+    display: flex;
+    position: relative;
+  }
+  /* overlay */
+  .page .overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.539);
+    z-index: 1;
+  }
+  aside {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    position: -webkit-sticky;
+    left: 0;
+  }
+  @keyframes trans-top {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  .bullets {
+  }
+  .bullets ul {
+    position: fixed;
+    right: calc(10% - 25px);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  .bullets ul li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* background-color: var(--sec-color); */
+    border: 3px solid var(--color-option);
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----------------------------------------------*/
+  aside {
+    padding: 20px 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    z-index: 10;
+  }
+  aside > div {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--sec-light-color);
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  aside div:last-of-type {
+    width: 40%;
+    margin: auto;
+  }
+  aside > div h3 {
+    margin-bottom: 20px;
+  }
+  aside .colors ul {
+    display: flex;
+    gap: 15px;
+  }
+  aside .colors ul li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .active-colors {
+    border: 3px solid white;
+    box-shadow: 0 0 9px 2px #777777a8;
+    transition: 0.3s;
+  }
+  aside .colors ul li:not(.active-colors):hover {
+    animation: var(--animation-top);
+  }
+  aside .colors ul li:nth-child(1) {
+    background-color: #ff9800;
+  }
+  aside .colors ul li:nth-child(2) {
+    background-color: #e91e63;
+  }
+  aside .colors ul li:nth-child(3) {
+    background-color: #009688;
+  }
+  aside .colors ul li:nth-child(4) {
+    background-color: #03a9f4;
+  }
+  aside .colors ul li:nth-child(5) {
+    background-color: #4caf50;
+  }
+  
+  .random-bacground ul,
+  .show-bullets ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .random-bacground button,
+  .show-bullets button {
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: var(--sec-color);
+    color: white;
+  }
+  .active-option {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  .random-bacground button:not(.active-option):hover,
+  .show-bullets button:not(.active-option):hover {
+    animation: var(--animation-top);
+  }
+  aside > button {
+    width: 90%;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(216, 25, 25);
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  aside > button:hover {
+    transition: 0.3s;
+    background-color: rgb(237, 15, 15);
+  }
+  .setting {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--sec-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--sec-color);
+    right: -60px;
+    top: 30px;
+    cursor: pointer;
+  }
+  /* .setting::after{
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 1px;
+      color: var(--sec-color);
+      right: -60px;
+      top: 30px;
+  } */
+  
+  /*----------------------------------------*/
+  header {
+    padding: 0;
+  }
+  header::after {
+    background-color: var(--color-option);
+  }
+  header nav {
+    width: 100%;
+    height: 90px;
+    background-color: var(--color-option);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px 25px;
+    gap: 100px;
+  }
+  header nav .logo p {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 2.5;
+  }
+  header nav .logo p span {
+    color: var(--sec-color);
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    background-color: var(--sec-color);
+    height: 50px;
+    padding: 0 26px;
+    border-radius: 50px;
+    position: relative;
+  }
+  .bol-nav {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--body-color);
+    left: 13px;
+    top: -50%;
+    box-sizing: content-box;
+    border: 7px solid var(--color-option);
+    transition: 0.5s;
+  }
+  .active-nav i {
+    font-size: 30px;
+    color: var(--sec-color);
+    transform: translateY(-30%);
+    margin-bottom: 5px;
+    transition: 0.5s;
+  }
+  
+  header nav ul li a {
+    color: var(--body-color);
+    font-size: 17px;
+  }
+  header nav ul li a span:not(.active-nav span) {
+    display: none;
+    margin-top: 1px;
+    font-size: small;
+  }
+  .active-nav span {
+    display: block;
+    margin-top: 1px;
+    font-size: small;
+  }
+  
+  header nav ul li a i:not(.active-nav i) {
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--body-color);
+  }
+  header .home {
+    height: 75%;
+    width: 85%;
+    color: var(--sec-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+  }
+  header .home h1 {
+    font-size: 50px;
+  }
+  header .home h1 span {
+    color: var(--color-option);
+  }
+  header .home p {
+  }
+  /*----------------------------------------------*/
+  .main section:nth-of-type(1) {
+    background-color: var(--color-option);
+  }
+  .main section:nth-of-type(1)::after {
+    background-color: var(--body-color);
+  }
+  .main section:nth-of-type(1) .container {
+    text-align: center;
+  }
+  .main section:nth-of-type(1) .container div {
+    margin-bottom: 100px;
+    color: var(--body-color);
+  }
+  .main section:nth-of-type(1) .container div p {
+    font-size: 20px;
+  }
+  .main section:nth-of-type(1) .container img {
+    animation: run-img 2s linear 0s infinite alternate forwards;
+  }
+  @keyframes run-img {
+    to {
+      transform: translateY(50px);
+    }
+  }
+  /*-----------------------------------------------*/
+  .main section:nth-of-type(2) {
+  }
+  .main section:nth-of-type(2)::after {
+    background-color: var(--color-option);
+    opacity: 0.5;
+  }
+  .main section:nth-of-type(2) .container {
+  }
+  .main section:nth-of-type(2) .container .top {
+    color: var(--color-option);
+  }
+  .main section:nth-of-type(2) .container .skill {
+    background-color: var(--sec-color);
+    width: 80%;
+    height: 55px;
+    text-align: center;
+    padding: 5px 10%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+  }
+  .main section:nth-of-type(2) .container .skill p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .main section:nth-of-type(2) .container .skill span {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(
+      to right,
+      var(--color-option) 80%,
+      #adaaaa 80%
+    );
+    border-radius: 30px;
+  }
+  /*-----------------------------------------------*/
+  .main section:nth-of-type(3) {
+    background-color: var(--color-option);
+  }
+  .main section:nth-of-type(3)::after {background-color: var(--body-color);}
+  .main section:nth-of-type(3) .container {
+      width: 100%;
+      height: 100%;
+  }
+  .main section:nth-of-type(3) .container .imgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 20px;
+    background-color: rgb(12 12 12 / 54%);
+    /* height: 100%; */
+    padding: 50px;
+    border-radius: 20px;
+    /* width: 80vw; */
+    margin: auto;
+    justify-content: center;
+  }
+  .main section:nth-of-type(3) .container .imgs img {
+    width: 300px;
+    border-radius: 20px;
+  }
+  /*-----------------------------------------------*/
+  .main section:nth-of-type(4) {
+  }
+  .main section:nth-of-type(4)::after {
+  }
+  .main section:nth-of-type(4) .container {
+  }
+  .timeline {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EEE; 
+  }
+  .timeline .timeline-content {
+    position: relative;
+    overflow: hidden;
+  }
+  .timeline .timeline-content:before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 0;
+  }
+  .timeline .timeline-content .year {
+    margin: 20px auto;
+    width: 50px;
+    background-color: var(--main-color);
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFF;
+    padding: 2px 5px;
+    font-weight: bold;
+  }
+  .timeline .timeline-content .left,
+  .timeline .timeline-content .right {
+    width: calc(50% - 25px);
+    margin-bottom: 40px;
+    position: relative;
+  }
+  @media (max-width: 767px) {
+    .timeline .timeline-content .left, 
+    .timeline .timeline-content .right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .timeline .timeline-content .left:before, 
+    .timeline .timeline-content .right:before {
+      display: none;
+    }
+    .timeline .timeline-content .left .content:before,
+    .timeline .timeline-content .right .content:before {
+      display: none;
+    }
+  }
+  .timeline .timeline-content .left {
+    float: left;
+  }
+  .timeline .timeline-content .left:before {
+    right: -35px;
+  }
+  .timeline .timeline-content .right {
+    float: right;
+  }
+  .timeline .timeline-content .right:before {
+    left: -35px;
+  }
+  .timeline .timeline-content .left:before,
+  .timeline .timeline-content .right:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: #FFF;
+    border: 3px solid var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 20px;
+  }
+  .timeline .timeline-content .content {
+    padding: 20px;
+    background-color: #FFF;
+  }
+  .timeline .timeline-content .content h3 {
+    font-weight: bold;
+    color: var(--main-color);
+    margin: 0 0 10px;
+  }
+  .timeline .timeline-content .content p {
+    color: #666;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .timeline .timeline-content .left .content:before {
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent #FFF;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: -20px;
+    top: 20px;
+  }
+  .timeline .timeline-content .right .content:before {
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #FFF transparent transparent ;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+  }
+  
+  /*-----------------------------------------------*/
+  .main section:nth-of-type(5) {
+  }
+  .main section:nth-of-type(5)::after {
+  }
+  .main section:nth-of-type(5) .container {
+  }
+  .features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .features h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main-color);
+    margin: 0 0 60px;
+    text-align: center;
+  }
+  .features .feat-box {
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  @media (max-width: 991px) {
+    .features .feat-box {
+      width: calc(100% / 2);
+    }
+  }
+  @media (max-width: 575px) {
+    .features .feat-box {
+      width: 100%;
+    }
+  }
+  .features .feat-box img {
+    width: 96px;
+  }
+  .features .feat-box h4 {
+    font-size: 22px;
+    margin: 15px 0 40px;
+    position: relative;
+  }
+  .features .feat-box h4:before {
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    bottom: -22px;
+  }
+  .features .feat-box p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: #706f6f;
+  }
+  /*-----------------------------------------------*/
+  .main section:nth-of-type(6) {
+  }
+  .main section:nth-of-type(6)::after {
+  }
+  .main section:nth-of-type(6) .container {
+  }
+  .testimonials {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .testimonials:before {
+    content: '';
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--main-color);
+    height: 100%;
+  }
+  .testimonials:after {
+    content: '';
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #333;
+    height: 100%;
+  }
+  .testimonials h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+    margin: 0 0 30px;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+  }
+  @media (max-width: 767px) {
+    .testimonials h2 {
+      text-align: center;
+    }
+  }
+  .testimonials .ts-box {
+    position: relative;
+    z-index: 2;
+    width: calc(98% / 3);
+    float: left;
+    background-color: #FFF;
+    padding: 20px;
+  }
+  @media (max-width: 767px) {
+    .testimonials .ts-box {
+      width: 100%;
+      float: none;
+      margin-bottom: 10px;
+    }
+  }
+  .testimonials .ts-box:not(:last-of-type) {
+    margin-right: 1%;
+  }
+  .testimonials .ts-box > p {
+    margin: 0 0 20px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #707070;
+    font-style: italic;  
+  }
+  .testimonials .ts-box .person-info {
+    overflow: hidden;
+  }
+  @media (max-width: 991px) {
+    .testimonials .ts-box .person-info {
+      text-align: center;
+      overflow: visible;
+    }
+  }
+  .testimonials .ts-box .person-info img {
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  @media (max-width: 991px) {
+    .testimonials .ts-box .person-info img {
+      float: none;
+      margin-right: 0;
+    }
+  }
+  .testimonials .ts-box .person-info h4 {
+    margin: 14px 0 10px;
+  }
+  .testimonials .ts-box .person-info p {
+    color: #707070;
+    margin: 0;
+  }
+  
+  /*-----------------------------------------------*/
+  .main section:nth-of-type(7) {
+  }
+  .main section:nth-of-type(7)::after {
+  }
+  .main section:nth-of-type(7) .container {
+  }
+  .contact {
+    min-height: 600px;
+    background-image: url('../imgs/contact.png');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+  }
+  .contact .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .6);
+    /* background-color: rgb(255 255 255 / 60%); */
+  }
+  .contact .container {
+    position: relative;
+    z-index: 2;
+  }
+  .contact h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main-color);
+    margin: 0 0 60px;
+    text-align: center; 
+  }
+  .contact form {
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+  }
+  .contact form .left {
+    float: left;
+    width: 49%;
+  }
+  .contact form .right {
+    float: right;
+    width: 49%;
+  }
+  @media (max-width: 767px) {
+    .contact form .left,
+    .contact form .right {
+      float: none;
+      width: 100%;
+    }
+  }
+  .contact form input:not([type="submit"]),
+  .contact form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    background-color: rgba(218, 218, 218, 0.19);
+  }
+  .contact form input:not([type="submit"]):focus,
+  .contact form textarea:focus { 
+    outline: 1px solid var(--main-color);
+  }
+  .contact form input {
+    height: 40px;
+  }
+  .contact form textarea {
+    height: 150px;
+  }
+  .contact form input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    border-color: transparent;
+    background-color: var(--main-color);
+    color: #FFF;
+    cursor: pointer;
+  }
+  .contact form textarea:focus::-webkit-input-placeholder,
+  .contact form input:not([type="submit"]):focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: .3s;
+  }
+  .contact form textarea:focus:-ms-input-placeholder,
+  .contact form input:not([type="submit"]):focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: .3s;
+  }
+  .contact form textarea:focus::placeholder,
+  .contact form input:not([type="submit"]):focus::placeholder {
+    opacity: 0;
+    transition: .3s;
+  }
+  /*-----------------------------------------------*/
+  
